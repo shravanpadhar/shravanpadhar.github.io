@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravan Padhar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme"> <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">SHRAVAN</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn">🌓 Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-flex">
+            <div class="hero-text">
+                <h1>Hi 👋, I'm <span class="highlight">Shravan Padhar</span></h1>
+                <p class="role">Computer Engineering Undergrad | AI, ML, & Data Science Specialist</p>
+                <div class="hero-btns">
+                    <a href="#certifications" class="btn">View Certifications</a>
+                    <a href="mailto:shravan.17927@sakec.ac.in" class="btn secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="shravan-image.jpg" alt="Shravan Padhar" class="profile-pic">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>My Journey</h2>
+            <p>I’m Shravan Padhar, a Computer Engineering undergrad specializing in AI, Machine Learning, and Data Science. I’ve shaped my journey through self-learning, hands-on experience, and persistence. I’ve interned in AI/ML, earned accolades in debates and writing, and focus on turning knowledge into real-world impact.</p>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Professional Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <img src="SHRAVANPADHAR-CERTIFICATION(2).png" alt="PwC Management Consulting">
+                    <div class="cert-info">
+                        <h3>Management Consulting Simulation</h3>
+                        <p>PwC</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <img src="shravanpadhar-certification(1).png" alt="Accenture Data Analytics">
+                    <div class="cert-info">
+                        <h3>Data Analytics and Visualization</h3>
+                        <p>Accenture</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <img src="SHRAVANPADHAR-CERTIFICATION(3).png" alt="Accenture Project Management">
+                    <div class="cert-info">
+                        <h3>Project Management</h3>
+                        <p>Accenture</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <img src="SHRAVANPADHAR-CERTIFICATION(4).png" alt="Microsoft AI">
+                    <div class="cert-info">
+                        <h3>Career Essentials in Generative AI</h3>
+                        <p>Microsoft/LinkedIn</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <img src="SHRAVANPADHAR-CERTIFICATION(5).png" alt="Elements of AI">
+                    <div class="cert-info">
+                        <h3>Elements of AI</h3>
+                        <p>University of Helsinki</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="writing" class="writing">
+        <div class="container">
+            <h2>Writing & Insights</h2>
+            <div class="insight-grid">
+                <a href="https://shravanpadhar.medium.com" target="_blank" class="insight-card">
+                    <div class="badge">Medium</div>
+                    <h3>Technical Articles & ML Research</h3>
+                    <p>Read my latest thoughts on AI trends and Data Science applications.</p>
+                    <span class="link-text">Read Articles →</span>
+                </a>
+                <a href="https://linkedin.com/in/shravanpadhar" target="_blank" class="insight-card">
+                    <div class="badge">LinkedIn</div>
+                    <h3>Featured Industry Insights</h3>
+                    <p>Professional updates, networking, and discussions on engineering.</p>
+                    <span class="link-text">View Profile →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Interested in collaborating or just want to say hi?</p>
+            <a href="mailto:shravan.17927@sakec.ac.in" class="email-link">shravan.17927@sakec.ac.in</a>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/shravanpadhar" target="_blank">LinkedIn</a>
+                <a href="https://github.com/shravanpadhar" target="_blank">GitHub</a>
+                <a href="https://twitter.com/ShravanPadhar02" target="_blank">Twitter/X</a>
+                <a href="https://shravanpadhar.medium.com" target="_blank">Medium</a>
+            </div>
+            <p class="copyright">&copy; 2026 Shravan Padhar.</p>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById("theme-toggle");
+        btn.onclick = function() {
+            document.body.classList.toggle("light-theme");
+        }
+    </script>
+</body>
+</html>
